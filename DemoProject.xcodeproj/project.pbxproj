@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D9255B21C7FE2F4003778E0 /* SBCircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9255B11C7FE2F4003778E0 /* SBCircleMenu.swift */; };
+		4D9F5C931C83EA2A00B3421C /* XibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F5C911C83EA2A00B3421C /* XibViewController.swift */; };
+		4D9F5C961C83EF0500B3421C /* SBCircleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F5C951C83EF0500B3421C /* SBCircleMenuViewController.swift */; };
 		4DEDD0A11C7E954300105D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDD0A01C7E954300105D94 /* AppDelegate.swift */; };
 		4DEDD0A31C7E954300105D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDD0A21C7E954300105D94 /* ViewController.swift */; };
 		4DEDD0A61C7E954300105D94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEDD0A41C7E954300105D94 /* Main.storyboard */; };
 		4DEDD0A81C7E954300105D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEDD0A71C7E954300105D94 /* Assets.xcassets */; };
 		4DEDD0AB1C7E954300105D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DEDD0A91C7E954300105D94 /* LaunchScreen.storyboard */; };
+		4DEDD0B31C7E9F2300105D94 /* SBNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDD0B21C7E9F2300105D94 /* SBNavigationController.swift */; };
+		4DEDD0B71C7EA27400105D94 /* SBCircleMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDD0B61C7EA27400105D94 /* SBCircleMenuItem.swift */; };
+		4DEDD0B91C7EA29500105D94 /* SBCircleMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEDD0B81C7EA29500105D94 /* SBCircleMenuItem.xib */; };
+		4DEDD0BD1C7ECAF800105D94 /* SBCircleMenuCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDD0BC1C7ECAF800105D94 /* SBCircleMenuCentral.swift */; };
+		4DEDD0BF1C7ECB0C00105D94 /* SBCircleMenuCentral.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEDD0BE1C7ECB0C00105D94 /* SBCircleMenuCentral.xib */; };
+		4DEDD0C21C7ECF4E00105D94 /* SBProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDD0C11C7ECF4E00105D94 /* SBProgressRing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D9255B11C7FE2F4003778E0 /* SBCircleMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCircleMenu.swift; sourceTree = "<group>"; };
+		4D9F5C911C83EA2A00B3421C /* XibViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibViewController.swift; sourceTree = "<group>"; };
+		4D9F5C951C83EF0500B3421C /* SBCircleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCircleMenuViewController.swift; sourceTree = "<group>"; };
 		4DEDD09D1C7E954300105D94 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DEDD0A01C7E954300105D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DEDD0A21C7E954300105D94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,13 @@
 		4DEDD0A71C7E954300105D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DEDD0AA1C7E954300105D94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DEDD0AC1C7E954300105D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DEDD0B21C7E9F2300105D94 /* SBNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBNavigationController.swift; sourceTree = "<group>"; };
+		4DEDD0B61C7EA27400105D94 /* SBCircleMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCircleMenuItem.swift; sourceTree = "<group>"; };
+		4DEDD0B81C7EA29500105D94 /* SBCircleMenuItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBCircleMenuItem.xib; sourceTree = "<group>"; };
+		4DEDD0BC1C7ECAF800105D94 /* SBCircleMenuCentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBCircleMenuCentral.swift; sourceTree = "<group>"; };
+		4DEDD0BE1C7ECB0C00105D94 /* SBCircleMenuCentral.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBCircleMenuCentral.xib; sourceTree = "<group>"; };
+		4DEDD0C11C7ECF4E00105D94 /* SBProgressRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBProgressRing.swift; sourceTree = "<group>"; };
+		4DEDD0C31C7EEE6D00105D94 /* DemoProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoProject-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +75,30 @@
 			children = (
 				4DEDD0A01C7E954300105D94 /* AppDelegate.swift */,
 				4DEDD0A21C7E954300105D94 /* ViewController.swift */,
+				4D9F5C911C83EA2A00B3421C /* XibViewController.swift */,
+				4D9F5C951C83EF0500B3421C /* SBCircleMenuViewController.swift */,
+				4DEDD0B51C7EA20300105D94 /* SBCircleMenu */,
 				4DEDD0A41C7E954300105D94 /* Main.storyboard */,
 				4DEDD0A71C7E954300105D94 /* Assets.xcassets */,
 				4DEDD0A91C7E954300105D94 /* LaunchScreen.storyboard */,
 				4DEDD0AC1C7E954300105D94 /* Info.plist */,
+				4DEDD0B21C7E9F2300105D94 /* SBNavigationController.swift */,
+				4DEDD0C31C7EEE6D00105D94 /* DemoProject-Bridging-Header.h */,
 			);
 			path = DemoProject;
+			sourceTree = "<group>";
+		};
+		4DEDD0B51C7EA20300105D94 /* SBCircleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4D9255B11C7FE2F4003778E0 /* SBCircleMenu.swift */,
+				4DEDD0B61C7EA27400105D94 /* SBCircleMenuItem.swift */,
+				4DEDD0B81C7EA29500105D94 /* SBCircleMenuItem.xib */,
+				4DEDD0BC1C7ECAF800105D94 /* SBCircleMenuCentral.swift */,
+				4DEDD0BE1C7ECB0C00105D94 /* SBCircleMenuCentral.xib */,
+				4DEDD0C11C7ECF4E00105D94 /* SBProgressRing.swift */,
+			);
+			path = SBCircleMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +133,7 @@
 				TargetAttributes = {
 					4DEDD09C1C7E954300105D94 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8W3B7ZQ5FR;
 					};
 				};
 			};
@@ -122,9 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEDD0B91C7EA29500105D94 /* SBCircleMenuItem.xib in Resources */,
 				4DEDD0AB1C7E954300105D94 /* LaunchScreen.storyboard in Resources */,
 				4DEDD0A81C7E954300105D94 /* Assets.xcassets in Resources */,
 				4DEDD0A61C7E954300105D94 /* Main.storyboard in Resources */,
+				4DEDD0BF1C7ECB0C00105D94 /* SBCircleMenuCentral.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9F5C961C83EF0500B3421C /* SBCircleMenuViewController.swift in Sources */,
+				4DEDD0B71C7EA27400105D94 /* SBCircleMenuItem.swift in Sources */,
+				4DEDD0C21C7ECF4E00105D94 /* SBProgressRing.swift in Sources */,
+				4D9255B21C7FE2F4003778E0 /* SBCircleMenu.swift in Sources */,
+				4DEDD0B31C7E9F2300105D94 /* SBNavigationController.swift in Sources */,
+				4D9F5C931C83EA2A00B3421C /* XibViewController.swift in Sources */,
 				4DEDD0A31C7E954300105D94 /* ViewController.swift in Sources */,
 				4DEDD0A11C7E954300105D94 /* AppDelegate.swift in Sources */,
+				4DEDD0BD1C7ECAF800105D94 /* SBCircleMenuCentral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +296,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lynch.DemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoProject/DemoProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,10 +315,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lynch.DemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoProject/DemoProject-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +348,7 @@
 				4DEDD0B11C7E954300105D94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

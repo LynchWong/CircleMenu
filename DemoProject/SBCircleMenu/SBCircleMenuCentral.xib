@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SBCircleMenuCentral" customModule="DemoProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Naf-hL-47O" userLabel="Bot Progress Ring" customClass="SBProgressRing" customModule="DemoProject" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="idz-ZY-WPh" userLabel="Top Progress Ring" customClass="SBProgressRing" customModule="DemoProject" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ae-ZP-gtg" userLabel="Central Circles">
+                    <rect key="frame" x="13" y="13" width="114" height="114"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDV-iB-pWq" userLabel="Bot Circle">
+                            <rect key="frame" x="0.0" y="0.0" width="114" height="114"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMH-tT-s0A" userLabel="Mid Circle">
+                            <rect key="frame" x="2" y="2" width="110" height="110"/>
+                            <color key="backgroundColor" red="0.72156862745098038" green="0.83137254901960778" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="110" id="d5F-1q-qiW"/>
+                                <constraint firstAttribute="height" constant="110" id="dDz-9D-c4z"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyy-JB-nZt" userLabel="Top Circle">
+                            <rect key="frame" x="7" y="7" width="100" height="100"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wl4-0X-FVe" userLabel="Label Content">
+                                    <rect key="frame" x="0.0" y="29" width="100" height="42"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2EM-Ky-vt1" userLabel="Continue">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="h47-V5-weZ"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Key words" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2N-kO-LLr" userLabel="Key words">
+                                            <rect key="frame" x="0.0" y="28" width="100" height="14"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="14" id="m8i-DF-anp"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="2EM-Ky-vt1" firstAttribute="leading" secondItem="wl4-0X-FVe" secondAttribute="leading" id="0Xk-qY-YY4"/>
+                                        <constraint firstItem="a2N-kO-LLr" firstAttribute="leading" secondItem="wl4-0X-FVe" secondAttribute="leading" id="Utu-zd-9Vq"/>
+                                        <constraint firstAttribute="height" constant="42" id="XZH-1e-p8O"/>
+                                        <constraint firstAttribute="bottom" secondItem="a2N-kO-LLr" secondAttribute="bottom" id="bfE-7S-fCo"/>
+                                        <constraint firstAttribute="trailing" secondItem="2EM-Ky-vt1" secondAttribute="trailing" id="cZx-io-seP"/>
+                                        <constraint firstItem="2EM-Ky-vt1" firstAttribute="top" secondItem="wl4-0X-FVe" secondAttribute="top" id="tdb-w2-ydk"/>
+                                        <constraint firstAttribute="trailing" secondItem="a2N-kO-LLr" secondAttribute="trailing" id="yZ6-MS-ehe"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.21568627450980393" green="0.62745098039215685" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="6zV-i4-KCJ"/>
+                                <constraint firstAttribute="trailing" secondItem="wl4-0X-FVe" secondAttribute="trailing" id="G2h-dt-o1p"/>
+                                <constraint firstItem="wl4-0X-FVe" firstAttribute="centerY" secondItem="iyy-JB-nZt" secondAttribute="centerY" id="KId-ph-cRw"/>
+                                <constraint firstItem="wl4-0X-FVe" firstAttribute="leading" secondItem="iyy-JB-nZt" secondAttribute="leading" id="hC9-gd-VuX"/>
+                                <constraint firstAttribute="width" constant="100" id="rAg-4z-iFO"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="114" id="4mV-Z2-6UV"/>
+                        <constraint firstAttribute="bottom" secondItem="jDV-iB-pWq" secondAttribute="bottom" id="MaD-wG-XrJ"/>
+                        <constraint firstItem="iyy-JB-nZt" firstAttribute="centerX" secondItem="8ae-ZP-gtg" secondAttribute="centerX" id="Rg5-Ls-8Bm"/>
+                        <constraint firstItem="jDV-iB-pWq" firstAttribute="leading" secondItem="8ae-ZP-gtg" secondAttribute="leading" id="bK2-1W-GDH"/>
+                        <constraint firstAttribute="height" constant="114" id="dfo-5V-AoK"/>
+                        <constraint firstItem="iyy-JB-nZt" firstAttribute="centerY" secondItem="8ae-ZP-gtg" secondAttribute="centerY" id="oka-0T-1Id"/>
+                        <constraint firstItem="DMH-tT-s0A" firstAttribute="centerX" secondItem="8ae-ZP-gtg" secondAttribute="centerX" id="qGU-7T-Iq0"/>
+                        <constraint firstItem="DMH-tT-s0A" firstAttribute="centerY" secondItem="8ae-ZP-gtg" secondAttribute="centerY" id="u7F-ey-y2d"/>
+                        <constraint firstItem="jDV-iB-pWq" firstAttribute="top" secondItem="8ae-ZP-gtg" secondAttribute="top" id="vnM-pt-cFK"/>
+                        <constraint firstAttribute="trailing" secondItem="jDV-iB-pWq" secondAttribute="trailing" id="z72-gl-LFS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="idz-ZY-WPh" secondAttribute="bottom" id="1cu-MT-jyn"/>
+                <constraint firstItem="8ae-ZP-gtg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8NP-SK-gv3"/>
+                <constraint firstItem="idz-ZY-WPh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LUj-sf-1Np"/>
+                <constraint firstAttribute="trailing" secondItem="Naf-hL-47O" secondAttribute="trailing" id="MwX-AK-ohi"/>
+                <constraint firstItem="8ae-ZP-gtg" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Sgt-9P-Uxd"/>
+                <constraint firstItem="idz-ZY-WPh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="VaE-G9-snl"/>
+                <constraint firstAttribute="trailing" secondItem="idz-ZY-WPh" secondAttribute="trailing" id="X9u-PM-byM"/>
+                <constraint firstItem="Naf-hL-47O" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cAw-uB-aT1"/>
+                <constraint firstAttribute="bottom" secondItem="Naf-hL-47O" secondAttribute="bottom" id="eOt-9X-4SX"/>
+                <constraint firstItem="Naf-hL-47O" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jZn-Xq-9AF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="botCircle" destination="jDV-iB-pWq" id="rrm-i4-Ant"/>
+                <outlet property="botProgressRing" destination="Naf-hL-47O" id="PmA-fN-xjk"/>
+                <outlet property="centralCircles" destination="8ae-ZP-gtg" id="aBc-wq-YXB"/>
+                <outlet property="centralLabel" destination="a2N-kO-LLr" id="olq-Xl-gZl"/>
+                <outlet property="midCircle" destination="DMH-tT-s0A" id="ces-7l-iKC"/>
+                <outlet property="topCircle" destination="iyy-JB-nZt" id="xel-91-Lzk"/>
+                <outlet property="topProgressRing" destination="idz-ZY-WPh" id="Pi6-bM-tTJ"/>
+            </connections>
+            <point key="canvasLocation" x="406" y="432"/>
+        </view>
+    </objects>
+</document>
