@@ -26,19 +26,19 @@ public enum SBMenuItemType: Int {
     public func itemsConfig() -> (imageName: String, enLabelText: String, chLabelText: String) {
         switch self {
             case .Film:
-                return ("file", "Film", "情景剧")
+                return ("keyword", "Key Words", "关键词")
             case .Keyword:
                 return ("keyword", "Key Words", "关键词")
             case .Listen:
-                return ("listen", "Listen", "听对话")
+                return ("keyword", "Key Words", "关键词")
             case .RolePlay:
-                return ("roleplay", "Role Play", "角色扮演")
+                return ("keyword", "Key Words", "关键词")
             case .OneOneClass:
-                return ("onetooneclass", "1 on 1 Class", "真人外教课")
+                return ("keyword", "Key Words", "关键词")
             case .VideoClass:
-                return ("videoclass", "Video Class", "讲解视频")
+                return ("keyword", "Key Words", "关键词")
             case .TryShare:
-                return ("tryshare", "Try&Share", "配音秀")
+                return ("keyword", "Key Words", "关键词")
             case .AllStepsDone: //没有对应的按钮
                 return ("", "", "")
         }

@@ -28,21 +28,21 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func gotoView(menuItemType: SBMenuItemType) {
         switch menuItemType {
             case .Film:
-                print("file Film 情景剧")
+                print("Film")
             case .Keyword:
-                print("Key Words 关键词")
+                print("Keyword")
             case .Listen:
-                print("Listen 听对话")
+                print("Listen")
             case .RolePlay:
-                print("Role Play 角色扮演")
+                print("RolePlay")
             case .OneOneClass:
-                print("1 on 1 Class 真人外教课")
+                print("OneOneClass")
             case .VideoClass:
-                print("Video Class 讲解视频")
+                print("VideoClass")
             case .TryShare:
-                print("Try&Share 配音秀")
+                print("TryShare")
             case .AllStepsDone:
-                print("Complete")
+                print("AllStepsDone")
         }
     }
 
