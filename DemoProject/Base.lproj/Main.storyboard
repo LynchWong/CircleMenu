@@ -75,6 +75,6 @@
     </scenes>
     <resources>
         <image name="back" width="13" height="22"/>
-        <image name="background" width="375" height="601"/>
+        <image name="background" width="1080" height="1920"/>
     </resources>
 </document>
